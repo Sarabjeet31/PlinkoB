@@ -5,11 +5,9 @@
     {
       "src": "/(.*)",
       "dest": "src/index.ts",
-      "methods": ["GET", "POST", "OPTIONS"],
+      "methods": ["GET", "POST", "OPTIONS", "PUT", "PATCH", "DELETE"],
       "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type, Authorization"
+        "Access-Control-Allow-Origin": "*"
       }
     }
   ]
